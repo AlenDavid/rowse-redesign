@@ -1,3 +1,48 @@
-.navbar {
+@import "../globals.scss";
+
+h1 {
+  margin: 0;
+}
+
+.navcontainer {
   width: 100vw;
+  padding: 0 12px;
+
+  font-family: "Darker Grotesque";
+  font-size: 115%;
+}
+
+.navbar {
+  width: 100%;
+  padding: 12px 0;
+
+  border-bottom: 1px solid $--grey-color;
+
+  display: flex;
+  align-items: baseline;
+}
+
+.navbarcontent {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: end;
+}
+
+.flex2 {
+  flex: 2;
+}
+
+.flex4 {
+  flex: 4;
+}
+
+.flex5 {
+  flex: 5;
 }
