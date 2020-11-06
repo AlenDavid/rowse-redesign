@@ -7,6 +7,17 @@ const Hero: React.FC = () => {
   return (
     <main className={styles.main}>
       <Navbar />
+      <div className={styles.content}>
+        <div className={styles.wrapper}>
+          <div className={styles.card}></div>
+        </div>
+        <div className={styles.wrapper}>
+          <div className={styles.card_sm}></div>
+          <div className={styles.card_sm}></div>
+          <div className={styles.card_sm}></div>
+          <div className={styles.card_sm}></div>
+        </div>
+      </div>
     </main>
   );
 };
