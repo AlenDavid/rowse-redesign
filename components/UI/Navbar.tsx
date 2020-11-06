@@ -11,8 +11,8 @@ const Navbar: React.FC = () => {
         <div
           className={`${styles.flex4} ${styles.center} ${styles.navbarcontent}`}
         >
-          <a href="#">Shop</a>
-          <a href="#">Skin concerns</a>
+          <a href="#shop">Shop</a>
+          <a href="#skin">Skin concerns</a>
         </div>
         <span
           className={`${styles.flex5} ${styles.center} ${styles.main_title}`}
@@ -22,14 +22,14 @@ const Navbar: React.FC = () => {
         <div
           className={`${styles.flex4} ${styles.center} ${styles.navbarcontent}`}
         >
-          <a href="#">Beauty Recipes</a>
-          <a href="#">Routines</a>
+          <a href="#recipes">Beauty Recipes</a>
+          <a href="#routines">Routines</a>
         </div>
         <div className={`${styles.flex2} ${styles.right}`}>
-          <a className={styles.icon} href="#">
+          <a className={styles.icon} href="/search">
             <FontAwesomeIcon icon="search" />
           </a>
-          <a className={styles.icon} href="#">
+          <a className={styles.icon} href="/store">
             {" "}
             <FontAwesomeIcon icon="store" />
           </a>
