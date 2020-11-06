@@ -1,4 +1,5 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import styles from "../../styles/components/Navbar.module.scss";
 
@@ -13,8 +14,10 @@ const Navbar: React.FC = () => {
           <a href="#">Shop</a>
           <a href="#">Skin concerns</a>
         </div>
-        <span className={`${styles.flex5} ${styles.center}`}>
-          The Greenhouse
+        <span
+          className={`${styles.flex5} ${styles.center} ${styles.main_title}`}
+        >
+          The <span>Greenhouse</span>
         </span>
         <div
           className={`${styles.flex4} ${styles.center} ${styles.navbarcontent}`}
@@ -23,8 +26,13 @@ const Navbar: React.FC = () => {
           <a href="#">Routines</a>
         </div>
         <div className={`${styles.flex2} ${styles.right}`}>
-          <a href="#">O</a>
-          <a href="#">D</a>
+          <a className={styles.icon} href="#">
+            <FontAwesomeIcon icon="search" />
+          </a>
+          <a className={styles.icon} href="#">
+            {" "}
+            <FontAwesomeIcon icon="store" />
+          </a>
         </div>
       </div>
     </nav>

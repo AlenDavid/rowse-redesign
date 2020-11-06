@@ -14,12 +14,12 @@ h1 {
 
 .navbar {
   width: 100%;
-  padding: 12px 0;
+  padding: 12px 0 6px;
 
   border-bottom: 1px solid $--grey-color;
 
   display: flex;
-  align-items: baseline;
+  align-items: end;
 }
 
 .navbarcontent {
@@ -31,8 +31,21 @@ h1 {
   text-align: center;
 }
 
+.main_title {
+  word-spacing: 9999rem;
+  line-height: 18px;
+
+  span {
+    font-size: 150%;
+  }
+}
+
 .right {
   text-align: end;
+}
+
+.icon {
+  padding-left: 12px;
 }
 
 .flex2 {
