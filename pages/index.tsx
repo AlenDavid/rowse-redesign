@@ -14,12 +14,14 @@ export default function Home() {
         <meta name="og:url" content="https://rowse-redesign.vercel.app/" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@davidalen_" />
+        <meta name="twitter:creator" content="@davidalen_" />
+        <meta name="twitter:description" content="Rowse's e-commerce" />
         <meta
-          name="og:image"
+          name="twitter:image"
           content="https://rowse-redesign.vercel.app/images/hero-background-image.webp"
         ></meta>
         <meta
-          name="twitter:image"
+          name="og:image"
           content="https://rowse-redesign.vercel.app/images/hero-background-image.webp"
         ></meta>
         <link rel="icon" href="/favicon.ico" />
