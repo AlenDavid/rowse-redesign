@@ -17,7 +17,7 @@ const Navbar: React.FC = () => {
         <span
           className={`${styles.flex5} ${styles.center} ${styles.main_title}`}
         >
-          The <span>Greenhouse</span>
+          THE <span>GREENHOUSE</span>
         </span>
         <div
           className={`${styles.flex4} ${styles.center} ${styles.navbarcontent}`}
