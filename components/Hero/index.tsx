@@ -1,7 +1,9 @@
 import React from "react";
 
-import Navbar from "../UI/Navbar";
 import styles from "../../styles/components/Hero.module.scss";
+
+import Navbar from "../UI/Navbar";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Hero: React.FC = () => {
   return (
@@ -10,7 +12,9 @@ const Hero: React.FC = () => {
       <div className={styles.content}>
         <div className={styles.wrapper}>
           <div className={`${styles.card_big} ${styles.card}`}>
-            <span>Down</span>
+            <span className={styles.arrow_icon}>
+              <FontAwesomeIcon size="3x" icon="long-arrow-alt-down" />
+            </span>
           </div>
         </div>
         <div className={styles.wrapper}>
