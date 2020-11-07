@@ -12,6 +12,20 @@ h1 {
     Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
     sans-serif;
   font-size: 115%;
+
+  animation: navcontainer 1s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+
+  @keyframes navcontainer {
+    from {
+      opacity: 0;
+      transform: translateY(-100px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
 }
 
 .navbar {
